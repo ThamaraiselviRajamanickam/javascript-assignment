@@ -1,0 +1,35 @@
+<html>
+<head>
+ 
+    <title>RADIO BUTTON ASSIGNMENT</title>
+</head>
+<script>
+    function ChangeImage(newimage)
+{
+document.imgRef.src=newimage;
+}
+</script>
+<body>
+    <h1>Image cahange</h1>
+<img src="t.jpg" height="300px" width="300px"
+name="imgRef"/>
+
+<br>
+    <br>
+    <input type="radio" name="h"value="h" onclick="ChangeImage('html-tagst.jpg')" >
+    <label>HTML</label><br>
+    <input type="radio" name="h" value="c" onclick="ChangeImage('css3.png')">
+    <label>CSS</label><br>
+    <input type="radio" name="h" value="j" onclick="ChangeImage('js.png')">
+    <label>JAVASCERIPT</label><br>
+    <input type="radio" name="h" value="r" onclick="ChangeImage('React.jpg')">
+    <label>REACT</label>
+
+
+
+
+
+
+  
+</body>
+</html>
